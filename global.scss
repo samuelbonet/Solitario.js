@@ -30,10 +30,9 @@ body {
     font-size: 64px;
     letter-spacing: 0%;
     text-align: center;
-    font-family: "Inter", sans-serif;
 }
 
-.div-3 {
+.mazos {
     display: flex;
     flex-direction: row;
     max-width: 1240px;
@@ -46,7 +45,7 @@ body {
     padding-left: 10px;
 }
 
-.div-4 {
+.mazonegro {
     display: flex;
     max-width: 100px;
     height: 154px;
@@ -55,7 +54,7 @@ body {
     background-color: rgba(0, 0, 0, 1);
 }
 
-.div-5 {
+.mazorojo {
     display: flex;
     max-width: 100px;
     height: 154px;
@@ -65,7 +64,7 @@ body {
     background-color: rgba(255, 0, 0, 1);
 }
 
-.div-6 {
+.mazonegro {
     display: flex;
     max-width: 100px;
     height: 154px;
@@ -75,7 +74,7 @@ body {
     background-color: rgba(0, 0, 0, 1);
 }
 
-.div-7 {
+.mazorojo {
     display: flex;
     max-width: 100px;
     height: 154px;
@@ -85,7 +84,7 @@ body {
     background-color: rgba(255, 0, 0, 1);
 }
 
-.div-8 {
+.descartes {
     display: flex;
     max-width: 100px;
     height: 154px;
@@ -106,13 +105,6 @@ body {
     display: flex;
 }
 
-@media (max-width: 999px) {
-    .div-10 {
-        flex-direction: column;
-        align-items: stretch;
-    }
-}
-
 .column {
     display: flex;
     flex-direction: column;
@@ -121,19 +113,13 @@ body {
     margin-left: 0px;
 }
 
-@media (max-width: 999px) {
-    .column {
-        width: 100%;
-    }
-}
 
 .div-11 {
     max-width: 248px;
     color: rgba(255, 255, 255, 1);
     font-size: 32px;
     letter-spacing: 0%;
-    text-align: left;
-    font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
 .column-2 {
@@ -144,22 +130,16 @@ body {
     margin-left: 20px;
 }
 
-@media (max-width: 999px) {
-    .column-2 {
-        width: 100%;
-    }
-}
 
 .div-12 {
     max-width: 255px;
     color: rgba(255, 255, 255, 1);
     font-size: 32px;
     letter-spacing: 0%;
-    text-align: left;
-    font-family: "Roboto", sans-serif;
+    text-align: center;
 }
 
-.div-13 {
+.cartas {
     display: flex;
     flex-direction: row;
     max-width: 1100px;
@@ -168,141 +148,11 @@ body {
     margin-top: 225px;
 }
 
-.div-14 {
+.carta {
     display: flex;
     max-width: 100px;
     height: 100px;
     width: 100px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-15 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-16 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-17 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-18 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-19 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-20 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-21 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-22 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-23 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
-    border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
-}
-
-.div-24 {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
-    margin-left: -5px;
     border-radius: 10px;
     border-color: rgba(0, 0, 0, 1);
     border-width: 2px;
