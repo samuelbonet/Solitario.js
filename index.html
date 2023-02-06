@@ -1,354 +1,50 @@
 <!DOCTYPE html>
 <html lang="es">
+<!--Base URL: https://solitario.usarral.com/-->
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Solitario.JS</title>
+    <link rel="stylesheet" href="global.css">
 </head>
 
 <body>
 
-    <div class="content">
-        <div class="Title">
-            <h1>Solitario</h1>
-        </div>
-        <div class="div-3">
-            <div class="div-4"></div>
-            <div class="div-5"></div>
-            <div class="div-6"></div>
-            <div class="div-7"></div>
-            <div class="div-8"></div>
-        </div>
-        <div class="div-9">
-            <div class="builder-columns div-10">
-                <div class="builder-column column">
-                    <div class="div-11">Tiempo: 00:00:00</div>
-                </div>
-                <div class="builder-column column-2">
-                    <div class="div-12">Movimientos: 696</div>
-                </div>
+    <header>
+        <h1>Solitario</h1>
+    </header>
+    <div class="div-3">
+        <div class="div-4"></div>
+        <div class="div-5"></div>
+        <div class="div-6"></div>
+        <div class="div-7"></div>
+        <div class="div-8"></div>
+    </div>
+    <div class="div-9">
+        <div class="builder-columns div-10">
+            <div class="builder-column column">
+                <div class="div-11">Tiempo: 00:00:00</div>
+            </div>
+            <div class="builder-column column-2">
+                <div class="div-12">Movimientos: 696</div>
             </div>
         </div>
-        <div class="div-13">
-            <div class="div-14"></div>
-            <div class="div-15"></div>
-            <div class="div-16"></div>
-            <div class="div-17"></div>
-            <div class="div-18"></div>
-            <div class="div-19"></div>
-            <div class="div-20"></div>
-            <div class="div-21"></div>
-            <div class="div-22"></div>
-            <div class="div-23"></div>
-            <div class="div-24"></div>
-        </div>
     </div>
-    <style>
-        .content {
-            display: flex;
-            flex-direction: column;
-            max-width: 1342px;
-            justify-content: flex-start;
-            align-items: center;
-            padding-top: 50px;
-            padding-right: 51px;
-            padding-bottom: 50px;
-            padding-left: 51px;
-            background-color: rgba(25, 80, 25, 1);
-        }
-
-        .div-2 {
-            display: flex;
-            flex-direction: row;
-            max-width: 261px;
-            justify-content: flex-start;
-            align-items: flex-start;
-            color: rgba(255, 255, 255, 1);
-            font-size: 64px;
-            letter-spacing: 0%;
-            text-align: center;
-            font-family: "Inter", sans-serif;
-        }
-
-        .div-3 {
-            display: flex;
-            flex-direction: row;
-            max-width: 1240px;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 225px;
-            padding-top: 10px;
-            padding-right: 10px;
-            padding-bottom: 10px;
-            padding-left: 10px;
-        }
-
-        .div-4 {
-            display: flex;
-            max-width: 100px;
-            height: 154px;
-            width: 100px;
-            border-radius: 10px;
-            background-color: rgba(0, 0, 0, 1);
-        }
-
-        .div-5 {
-            display: flex;
-            max-width: 100px;
-            height: 154px;
-            width: 100px;
-            margin-left: 10px;
-            border-radius: 10px;
-            background-color: rgba(255, 0, 0, 1);
-        }
-
-        .div-6 {
-            display: flex;
-            max-width: 100px;
-            height: 154px;
-            width: 100px;
-            margin-left: 10px;
-            border-radius: 10px;
-            background-color: rgba(0, 0, 0, 1);
-        }
-
-        .div-7 {
-            display: flex;
-            max-width: 100px;
-            height: 154px;
-            width: 100px;
-            margin-left: 10px;
-            border-radius: 10px;
-            background-color: rgba(255, 0, 0, 1);
-        }
-
-        .div-8 {
-            display: flex;
-            max-width: 100px;
-            height: 154px;
-            width: 100px;
-            margin-left: 10px;
-            border-radius: 10px;
-            background-color: rgba(0, 255, 0, 1);
-        }
-
-        .div-9 {
-            display: flex;
-            flex-direction: column;
-            max-width: 703px;
-            margin-top: 225px;
-        }
-
-        .div-10 {
-            display: flex;
-        }
-
-        @media (max-width: 999px) {
-            .div-10 {
-                flex-direction: column;
-                align-items: stretch;
-            }
-        }
-
-        .column {
-            display: flex;
-            flex-direction: column;
-            line-height: normal;
-            width: calc(81.58% - 10px);
-            margin-left: 0px;
-        }
-
-        @media (max-width: 999px) {
-            .column {
-                width: 100%;
-            }
-        }
-
-        .div-11 {
-            max-width: 248px;
-            color: rgba(255, 255, 255, 1);
-            font-size: 32px;
-            letter-spacing: 0%;
-            text-align: left;
-            font-family: "Roboto", sans-serif;
-        }
-
-        .column-2 {
-            display: flex;
-            flex-direction: column;
-            line-height: normal;
-            width: calc(83.88% - 10px);
-            margin-left: 20px;
-        }
-
-        @media (max-width: 999px) {
-            .column-2 {
-                width: 100%;
-            }
-        }
-
-        .div-12 {
-            max-width: 255px;
-            color: rgba(255, 255, 255, 1);
-            font-size: 32px;
-            letter-spacing: 0%;
-            text-align: left;
-            font-family: "Roboto", sans-serif;
-        }
-
-        .div-13 {
-            display: flex;
-            flex-direction: row;
-            max-width: 1100px;
-            justify-content: flex-start;
-            align-items: flex-start;
-            margin-top: 225px;
-        }
-
-        .div-14 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-15 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-16 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-17 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-18 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-19 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-20 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-21 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-22 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-23 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-
-        .div-24 {
-            display: flex;
-            max-width: 100px;
-            height: 100px;
-            width: 100px;
-            margin-left: -5px;
-            border-radius: 10px;
-            border-color: rgba(0, 0, 0, 1);
-            border-width: 2px;
-            border-style: solid;
-            background-color: rgba(186, 52, 52, 1);
-        }
-    </style>
+    <div class="div-13">
+        <div class="div-14"></div>
+        <div class="div-15"></div>
+        <div class="div-16"></div>
+        <div class="div-17"></div>
+        <div class="div-18"></div>
+        <div class="div-19"></div>
+        <div class="div-20"></div>
+        <div class="div-21"></div>
+        <div class="div-22"></div>
+        <div class="div-23"></div>
+        <div class="div-24"></div>
+    </div>
 </body>
 
 </html>
