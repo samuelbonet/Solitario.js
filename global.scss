@@ -159,3 +159,7 @@ body {
     border-style: solid;
     background-color: rgba(186, 52, 52, 1);
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
