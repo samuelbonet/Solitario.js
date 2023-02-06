@@ -3,6 +3,11 @@
 
 
 Tabla de contenido
+- [Solitario.js](#solitariojs)
+  - [Introducción](#introducción)
+  - [Desarrollo](#desarrollo)
+  - [Conclusiones](#conclusiones)
+  - [Bibliografía/Webgrafía](#bibliografíawebgrafía)
 
  
 ## Introducción
