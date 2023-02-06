@@ -1,0 +1,1 @@
+//Cargar todas las cartas en el html y en el array
