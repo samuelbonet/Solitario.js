@@ -20,15 +20,22 @@ Grupo 2
  <div style='page-break-after:always;'></div>
 
 ## Introducción (tecnologías e IDEs empleados, etc.).
-El objetivo de este proyecto propuesto en clase es la realización de un juego versionado del solitario,para ello el profesorado nos ha proporcionado el material necesario,con los recursos y documentación necesaria para poder realizar el proyecto.
+El objetivo de este proyecto propuesto en clase es la realización de un juego versionado del solitario,para ello el profesorado nos ha proporcionado el material necesario,con los recursos y documentación necesaria para poder realizar el proyecto garantizándonos una base por la que empezar.
 
- Mediante las tecnologías que ya conocemos de antemano como son HTML,CSS y JavaScript, hemos realizado un juego que se puede jugar en cualquier navegador web. Para ello hemos utilizado el IDE de Visual Studio Code, que nos ha permitido trabajar de manera cómoda y era una herramienta que conocíamos todos.
-
-
-Para la creación de este proyecto hemos utilizado la aplicación de GitHub, que nos ha permitido trabajar de manera colectiva y hemos creado un repositorio en el que hemos ido subiendo los archivos.  
+ Mediante las tecnologías que ya conocemos de antemano como son HTML,CSS y JavaScript, hemos realizado una versión del juego del solitario ,en la que se pueda jugar en cualquier navegador web. Para ello hemos utilizado el IDE de Visual Studio Code, que nos ha permitido trabajar de manera cómoda y era una herramienta familiar para nosotros.
 
 
-Posteriormente hemos utilizado la aplicación de Figma, encargada de realizar el diseño de la página web y el juego,haciéndonoslo más fácil a la hora de pensar un diseño que se adapte a la página web y que sea agradable a la vista.
+También se ha realizado esta memoria mediante un lenguaje de marcas conocido como Markdown,innovando un poco a la hora de redactar y consiguiendo hacer una memoria más técnica y profesional.
+
+Para la creación de este proyecto hemos utilizado la aplicación web de GitHub, que nos ha permitido trabajar de manera colectiva y de manera remota, para así poder trabajar en el mismo proyecto desde distintos sitios. Además, hemos tenido un control de versiones de nuestro proyecto,para así poder ir guardando los cambios que íbamos realizando.
+¡¡¡Subir imagen del repositorio!!!
+
+
+ [Puedes hacer click desde este enlace](https://github.com/usarral/Solitario.js)
+
+Posteriormente hemos utilizado la aplicación de Figma, editor encargado de realizar el diseño del juego,haciéndonoslo más fácil a la hora de pensar un diseño que sea adaptable y agradable a la vista.
+
+¡¡¡Poner captura de la pagina de Figma!!!
 
 La herramienta por excelencia para la creación de este proyecto ha sido HTML, ya que son los cimientos estructurales de nuestro juego. 
 
