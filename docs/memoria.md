@@ -76,7 +76,7 @@ Seguidamente nos pusimos manos a la obra y empezamos a trabajar en el proyecto,p
 <div style='page-break-after:always;'></div>
 
 ### Desarrollo de los estilos
-Una vez teníamos el croquis,empezamos a trabajar en el diseño de la página web,para ello nos basamos en un fondo verde que haría de tapete de juego y en una baraja de cartas que se situaría en la parte inferior de la página web.El tiempo que nada más empezar el juego se mostraría en la parte central inferior de la pantalla y los movimientos que el usuario va realizando.
+Una vez teníamos el croquis,empezamos a trabajar en el diseño de la página web,para ello nos basamos en un fondo verde que haría de tapete de juego y en una baraja de cartas que se situaría en la parte inferior de la página web.El tiempo que nada más empezar el juego se mostraría en la parte central inferior de la pantalla y los movimientos que el usuario va realizando.Para ello contamos 
 
 ¡¡¡Poner imagen del tapete!!!
 ¡¡¡Poner captura del CODIGO!!!
