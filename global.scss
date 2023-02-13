@@ -6,6 +6,13 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+h1 {
+    font-size: 3rem;
+    color: white;
+    padding: 1rem;
+    margin: 1rem;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -20,142 +27,70 @@ body {
     background-color: rgba(25, 80, 25, 1);
 }
 
-.div-2 {
-    display: flex;
-    flex-direction: row;
-    max-width: 261px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    color: rgba(255, 255, 255, 1);
-    font-size: 64px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-
+// MAZOS
 .mazos {
     display: flex;
     flex-direction: row;
-    max-width: 1240px;
+    width: 60%;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    padding-top: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    padding-left: 10px;
-}
+    margin: auto;
 
-.mazonegro {
-    display: flex;
-    max-width: 100px;
-    height: 154px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 1);
-}
-
-.mazorojo {
-    display: flex;
-    max-width: 100px;
-    height: 154px;
-    width: 100px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background-color: rgba(255, 0, 0, 1);
-}
-
-.mazonegro {
-    display: flex;
-    max-width: 100px;
-    height: 154px;
-    width: 100px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background-color: rgba(0, 0, 0, 1);
-}
-
-.mazorojo {
-    display: flex;
-    max-width: 100px;
-    height: 154px;
-    width: 100px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background-color: rgba(255, 0, 0, 1);
-}
-
-.descartes {
-    display: flex;
-    max-width: 100px;
-    height: 154px;
-    width: 100px;
-    margin-left: 10px;
-    border-radius: 10px;
-    background-image: url("./img/cartas/10-cua.png");
-}
-
-.div-9 {
-    display: flex;
-    flex-direction: column;
-    max-width: 703px;
-    margin-top: 100px;
-}
-
-.div-10 {
-    display: flex;
-}
-
-.column {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: calc(81.58% - 10px);
-    margin-left: 0px;
-}
-
-
-.div-11 {
-    max-width: 248px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 32px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-
-.column-2 {
-    display: flex;
-    flex-direction: column;
-    line-height: normal;
-    width: calc(83.88% - 10px);
-    margin-left: 20px;
-}
-
-
-.div-12 {
-    max-width: 255px;
-    color: rgba(255, 255, 255, 1);
-    font-size: 32px;
-    letter-spacing: 0%;
-    text-align: center;
-}
-
-.cartas {
-    display: flex;
-    flex-direction: row;
-    max-width: 1100px;
-    justify-content: flex-start;
-    align-items: flex-start;
-    margin-top: 100px;
 }
 
 .carta {
-    display: flex;
-    max-width: 100px;
-    height: 100px;
-    width: 100px;
+    aspect-ratio: 300/407;
+    max-width: 6.125rem;
+    max-height: 11.25rem;
     border-radius: 10px;
-    border-color: rgba(0, 0, 0, 1);
-    border-width: 2px;
-    border-style: solid;
-    background-color: rgba(186, 52, 52, 1);
+    border: solid 0.5px black;
+}
+
+.carta img {
+    width: 100%;
+    height: 100%;
+}
+
+.mazo {
+    width: 100%;
+    height: 100%;
+}
+
+.mazo__rojo {
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.mazo__negro {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.mazo__descarte {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.textos {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    font-size: 2rem;
+    color: white;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+#mazoCartas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: "#ff0000";
+}
+
+.carta-oculta {
+    width: 3.125rem;
+
+    background-color: rgba(255, 0, 0, 1);
+}
+
+.carta-oculta img {
+    display: none;
 }
